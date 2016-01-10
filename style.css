@@ -219,6 +219,7 @@ h2 {
   font-size: 16px;
   line-height: 150%;
   width: 49%;
+  color: #2f2f2f;
 }
 
 .container {
@@ -341,6 +342,7 @@ h2 {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;   
+  display: none;
 }
 
 #misc:hover {
@@ -366,6 +368,43 @@ h2 {
 
 .contact .underline {
   background-color: white;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.lightbox:target {
+  outline: none;
+  display: block;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;  
+}
+
+.contact a:hover {
+  color: #2f2f2f;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;  
 }
 
 @media only screen and (max-width: 1000px) {
