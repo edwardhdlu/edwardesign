@@ -1,41 +1,41 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url(Montserrat-Hairline.otf) format("truetype");
+  src: url(fonts/Montserrat-Hairline.otf) format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(Montserrat-UltraLight.otf) format("truetype");
+  src: url(fonts/Montserrat-UltraLight.otf) format("truetype");
   font-weight: 150;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(Montserrat-Light.otf) format("truetype");
+  src: url(fonts/Montserrat-Light.otf) format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(Montserrat-Regular.otf) format("truetype");
+  src: url(fonts/Montserrat-Regular.otf) format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(Montserrat-SemiBold.otf) format("truetype");
+  src: url(fonts/Montserrat-SemiBold.otf) format("truetype");
   font-weight: 410;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(Montserrat-Black.otf) format("truetype");
+  src: url(fonts/Montserrat-Black.otf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -61,9 +61,19 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-size: 32px;
+  color: #2f2f2f;
+  font-weight: normal;
+  letter-spacing: -1px;
+  display: inline-block;
+  margin: 0;
+}
+
 .header {
-  border-top: 5px solid #f34235;
+  border-top: 5px solid #00BBD3;
   padding: 40px;
+  padding-bottom: 0;
   font-size: 24px;
   position: fixed;
   color: #2f2f2f;
@@ -82,7 +92,7 @@ h1 {
 }
 
 .transition .title {
-  color: #f34235;
+  color: #00BBD3;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s; 
@@ -124,14 +134,14 @@ h1 {
 }
 
 .transition li a:hover {
-  color: #f34235;
+  color: #00BBD3;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s; 
 }
 
 .splash {
-	background-color: #f34235;
+	background-color: #00BBD3;
 	height: 100vh;
 	width: 100%;
   box-sizing: border-box;
@@ -146,6 +156,7 @@ h1 {
   text-align: center;
   margin: 0 auto;
   margin-top: -125px;
+  margin-bottom: 118px;
   -webkit-transform:scale(2,1);
   -moz-transform:scale(2,1);
   -ms-transform:scale(2,1);
@@ -180,7 +191,19 @@ h1 {
   }
 }
 
-.about {
+.about, .work {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.underline {
   width: 100%;
-  height: 200px;
+  height: 5px;
+  background-color: #00BBD3;
+}
+
+.pg {
+  font-size: 14px;
+  line-height: 150%;
 }
