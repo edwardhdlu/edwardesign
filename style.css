@@ -46,7 +46,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 300;
-  height: 2000px;
 }
 
 h1 {
@@ -225,6 +224,7 @@ h2 {
   float: left;
   font-size: 24px;
   font-weight: 410;
+  cursor: pointer;
 }
 
 #watwhenwhere {
@@ -330,4 +330,35 @@ h2 {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;   
+}
+
+.contact {
+  background-color: #00BBD3;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  width: 100%;
+  float: left;
+}
+
+.contact .pg, .contact h2 {
+  margin-left: 10%;
+}
+
+.contact .underline {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+
+.project {
+  width: 100%;
+  padding: 75px;
+}
+
+.pg {
+  width: 100%;
+}
+
 }
