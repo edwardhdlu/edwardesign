@@ -204,6 +204,130 @@ h2 {
 }
 
 .pg {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 150%;
+  width: 49%;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.project {
+  width: 49%;
+  padding: 50px;
+  text-align: center;
+  background-color: #2f2f2f;
+  margin-top: 20px;
+  box-sizing: border-box;
+  color: white;
+  float: left;
+  font-size: 24px;
+  font-weight: 410;
+}
+
+#watwhenwhere {
+  color: #e2e2e2;
+  border: 1px solid #2f2f2f;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+#watwhenwhere:hover {
+  color: #2f2f2f;
+  background-color: #e2e2e2;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+#predictable {
+  float: right;
+  color: white;
+  font-weight: 100;
+  border: 1px solid #3399cc;
+  background-color: #3399cc;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+#predictable:hover {
+  color: #3399cc;
+  background-color: white;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+#fiverr {
+  background-color: #00B22D;
+  color: white;
+  border: 1px solid #00B22D;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+#fiverr:hover {
+  background-color: white;
+  color: #00B22D;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+#transference {
+  float: right;
+  background-color: #1D282A;
+  color: #5F828A;
+  border: 1px solid #1D282A;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;   
+}
+
+#transference:hover {
+  background-color: #5F828A;
+  color: #1D282A;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;   
+}
+
+#planner {
+  color: white;
+  background-color: #F6444C;
+  border: 1px solid #F6444C;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;   
+}
+
+#planner:hover {
+  background-color: #3F58A4;
+  border: 1px solid #3F58A4;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;   
+}
+
+#misc {
+  float: right;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;   
+}
+
+#misc:hover {
+  color: white;
+  background-color: black;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;   
 }
