@@ -40,6 +40,10 @@
   font-style: normal;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -83,7 +87,7 @@ h2 {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s; 
-  
+  z-index: 99;
 }
 
 .title {
@@ -115,6 +119,10 @@ h2 {
   float: right;
   margin-right: 10%;
   margin-top: -24px;
+}
+
+.menu ul {
+  padding-left: 0;
 }
 
 .menu li {
@@ -411,11 +419,32 @@ h2 {
 
 .project {
   width: 100%;
-  padding: 75px;
+  padding: 50px;
 }
 
 .pg {
   width: 100%;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.project {
+  font-size: 12px;
+  padding: 25px;
+}
+
+.menu li a {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 }
